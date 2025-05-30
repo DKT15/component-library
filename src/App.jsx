@@ -5,14 +5,14 @@ import Badge from "../components/Badge/Badge";
 function App() {
   return (
     <main>
-      <Badge colour="green">Badge</Badge>
-      <Badge colour="red">Badge</Badge>
-      <Badge colour="yellow">Badge</Badge>
-      <Badge colour="gray">Badge</Badge>
-      <Badge colour="blue">Badge</Badge>
-      <Badge colour="indigo">Badge</Badge>
-      <Badge colour="purple">Badge</Badge>
-      <Badge colour="pink">Badge</Badge>
+      <Badge color="green">Badge</Badge>
+      <Badge color="red">Badge</Badge>
+      <Badge color="yellow">Badge</Badge>
+      <Badge color="gray">Badge</Badge>
+      <Badge color="blue">Badge</Badge>
+      <Badge color="indigo">Badge</Badge>
+      <Badge color="purple">Badge</Badge>
+      <Badge color="pink">Badge</Badge>
     </main>
   );
 }
