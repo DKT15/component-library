@@ -1,0 +1,21 @@
+.card {
+    background-color: #F9FAFB;
+    border-radius: 8px;
+    height: 200px;
+    width: 400px;
+}
+
+card-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+div.div-white {
+    background-color: white;
+}
+
+svg {
+    height: 50px;
+    width: 50px;
+    color: blue;
+}

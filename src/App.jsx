@@ -1,13 +1,24 @@
 import React from "react";
 import "./App.css";
 import Card from "../components/Card/Card";
+import CardIcon from "../components/Card/CardIcon";
+import CardText from "../components/Card/CardText";
+import { IoIosCloudUpload } from "react-icons/io";
 // import Banner from "../components/Banner/Banner";
 // import Badge from "../components/Badge/Badge";
 
 function App() {
   return (
     <main>
-      <Card></Card>
+      <Card>
+        <CardIcon color="white">
+          <IoIosCloudUpload />
+        </CardIcon>
+        <CardText title="Easy Deployment">
+          Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et
+          magna sit morbi lobortis.
+        </CardText>
+      </Card>
     </main>
   );
 }
