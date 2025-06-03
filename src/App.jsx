@@ -1,27 +1,39 @@
 import React from "react";
 import "./App.css";
-import Card from "../components/Card/Card";
-import CardIcon from "../components/Card/CardIcon";
-import CardText from "../components/Card/CardText";
-import { IoIosCloudUpload } from "react-icons/io";
+import Testimonial from "../components/Testimonial/Testimonial";
+// import Card from "../components/Card/Card";
+// import { IoIosCloudUpload } from "react-icons/io";
 // import Banner from "../components/Banner/Banner";
 // import Badge from "../components/Badge/Badge";
 
+// THIS LINKS TO THE TESTIMONIAL COMPONENT.
 function App() {
   return (
     <main>
-      <Card>
-        <CardIcon color="white">
-          <IoIosCloudUpload />
-        </CardIcon>
-        <CardText title="Easy Deployment">
-          Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et
-          magna sit morbi lobortis.
-        </CardText>
-      </Card>
+      <Testimonial>
+        <Testimonial.Picture />
+        <Testimonial.Text />
+      </Testimonial>
     </main>
   );
 }
+
+// THIS LINKS TO THE CARD COMPONENT.
+// function App() {
+//   return (
+//     <main>
+//       <Card>
+//         <Card.Icon color="white">
+//           <IoIosCloudUpload />
+//         </Card.Icon>
+//         <Card.Text title="Easy Deployment">
+//           Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et
+//           magna sit morbi lobortis.
+//         </Card.Text>
+//       </Card>
+//     </main>
+//   );
+// }
 
 // THIS LINKS TO THE BANNER COMPONENT.
 // function App() {
