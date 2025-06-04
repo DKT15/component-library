@@ -1,5 +1,6 @@
 import React from "react";
 import "./App.css";
+import Toast from "../components/Toast/Toast";
 // import Testimonial from "../components/Testimonial/index";
 // import { IoPerson } from "react-icons/io5";
 // import Card from "../components/Card/index";
@@ -7,7 +8,7 @@ import "./App.css";
 // import Banner from "../components/Banner/Banner";
 // import Badge from "../components/Badge/Badge";
 
-// THIS LINKS TO THE TESTIMONIAL COMPONENT.
+// THIS LINKS TO THE TOAST COMPONENT.
 function App() {
   return (
     <main>
