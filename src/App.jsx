@@ -1,6 +1,7 @@
 import React from "react";
 import "./App.css";
 import Testimonial from "../components/Testimonial/index";
+import { IoPerson } from "react-icons/io5";
 // import Card from "../components/Card/index";
 // import { IoIosCloudUpload } from "react-icons/io";
 // import Banner from "../components/Banner/Banner";
@@ -11,6 +12,7 @@ function App() {
   return (
     <main>
       <Testimonial color="blue">
+        <IoPerson />
         <Testimonial.Text>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed urna
           nulla vitae laoreet augue. Amet feugiat est integer dolor auctor

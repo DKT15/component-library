@@ -3,7 +3,7 @@ import "./Testimonial.css";
 export default function TestimonialText({ children }) {
   return (
     <>
-      <div>{children}</div>
+      <div className="testimonial-text">{children}</div>
     </>
   );
 }
