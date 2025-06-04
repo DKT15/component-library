@@ -1,7 +1,7 @@
 import React from "react";
 import "./App.css";
-import Testimonial from "../components/Testimonial/Testimonial";
-// import Card from "../components/Card/Card";
+import Testimonial from "../components/Testimonial/index";
+// import Card from "../components/Card/index";
 // import { IoIosCloudUpload } from "react-icons/io";
 // import Banner from "../components/Banner/Banner";
 // import Badge from "../components/Badge/Badge";
@@ -10,9 +10,12 @@ import Testimonial from "../components/Testimonial/Testimonial";
 function App() {
   return (
     <main>
-      <Testimonial>
-        <Testimonial.Picture />
-        <Testimonial.Text />
+      <Testimonial color="blue">
+        <Testimonial.Text>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed urna
+          nulla vitae laoreet augue. Amet feugiat est integer dolor auctor
+          adipiscing nunc urna, sit.
+        </Testimonial.Text>
       </Testimonial>
     </main>
   );
